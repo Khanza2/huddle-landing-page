@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body{
+
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.header{
+    width:100%;
+    
+    
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 125px;
+
+}
+.btnheader{
+    font-family: 'Open Sans', sans-serif;
+    border: 1.9px solid hsl(321, 100%, 78%);
+    width: 100%;
+    max-width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:hsl(321, 100%, 78%);
+    height: 35px;
+    padding: 15px 5px ;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    margin-right: -27px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btnheader:hover{
+    color: #ffff;
+    background: hsl(321, 100%, 78%);
+}
+
+.mainlogo{
+    width: 100%;
+    max-width: 150px;
+    height: 25px;
+
+}
+
+
+.firstmainsection{
+    text-align: center;
+    margin-top: 90px;
+}
+.firstmainsection h1{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.firstmainsection p{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    font-weight: 500;
+
+}
+
+.btnmain{
+    background-color: hsl(322, 100%, 66%);
+    color: #ffff;
+    width: 100%;
+    max-width: 280px;
+    font-weight: 600;
+    font-size: 13px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 40px auto;
+    border: 1.9px solid hsl(322, 100%, 66%);
+    cursor: pointer;
+
+}
+
+.btnmain:hover{
+    color: hsl(322, 100%, 66%);
+    background-color: #ffff;
+
+}
+
+.mainimage{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 100%;
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.analytics{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.firstcolumn{
+    max-width: 50%;
+
+}
+.secondcolumn{
+    max-width: 50%;
+}
+
+#analyticsheader{
+    font-size: 73px;
+    font-weight: 700;
+}
+
+.secondcolumn p,
+   .firstcolumn p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.firstsection{
+    margin: 110px 0;
+    width: 100%;
+    display: flex;
+    height: 300px;
+    background-color: hsl(200, 100%, 98%);
+    align-items: center;
+    justify-content: space-around;
+}
+.firstminisection{
+    max-width: 50%;
+
+}
+.imgfirst img{
+    max-width: 400px;
+    height: 350px;
+}
+.firstminisection h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.firstminisection p{
+   font-family: 'Open Sans', sans-serif;
+   line-height: 30px;
+   width: 613px;
+   font-size: 20px;
+    
+
+}
+
+.secondsection{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 110px 0;
+}
+
+.imgsecond img{
+    max-width: 400px;
+    height: 350px;
+}
+
+.secondminsection h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondminsection p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    width: 640px;
+    font-size: 20px;
+     
+ 
+ }
+
+.thirdsection{
+    margin: 110px 0;
+}
+
+.imgthird img{
+    max-width: 500px;
+    height: 350px;
+}
+
+.thirdsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(200, 100%, 98%);
+
+}
+.thirdminisection p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    width: 645px;
+    font-size: 20px;
+     
+     
+ 
+ }
+
+ .thirdminisection h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.lastmainsection h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 160px;
+    margin-bottom: -10px;
+
+}
+.imgfooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#footerimg{
+    margin-top: 120px;
+    max-width: 100%;
+    height: 180px;
+}
+
+.contacts img{
+    border: 1px solid black;
+}
+.footercontainer{
+    background: hsl(192, 100%, 9%);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#mainfooterlogo{
+    filter: brightness(0) invert(1);
+}
+.firstfootercolumn p{
+    color: #ffff;
+    line-height: 23px;
+    margin-top: 15px;
+}
+.contacts1{
+    display: flex;
+    margin-top: -5px;
+    align-items: center;
+
+}
+
+.contacts2{
+    display: flex;
+
+    margin-top: -16px;
+
+}
+.contacts2 img{
+    width: 24px;
+    height: 23px;
+    margin: 15px;
+}
+.contacts1 img{
+    width: 24px;
+    height: 23px;
+    margin: 15px;
+    margin-top: 27px;
+}
+.contacts1 p{
+    text-align: center;
+    font-size: 16px;
+
+}
+.footericons{
+    filter: brightness(0) invert(1);
+
+
+}
+#icons{
+    width: 20px;
+    height: 20px;
+    margin: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.secondfootercolumn{
+    color: #ffff;
+}
+
+.secondfootercolumn h4{
+    font-size: 30px;
+    margin-top: -75px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.secondfootercolumn p{
+    line-height: 25px;
+    
+}
+
+.newsletterbtn{
+    margin-top: 20px;
+    height: 30px;
+}
+input{
+    border-radius: 8px;
+    border: none;
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+button{
+    width: 150px;
+    color: #ffff;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    font-size: 15px ;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 8px;
+}
+button:hover{
+    background:hsl(200, 100%, 98%);
+    color: hsl(322, 100%, 66%);
+}
+.attribution, .attribution a{
+    height: 24px;
+    background-color:hsl(192, 100%, 20%);
+    max-width: 100%;
+    text-align: center;
+    color: #ffff;
+    font-size: 14px;
+
+}
